@@ -1,0 +1,16 @@
+# Radius fuer lokale Todesnachrichten (Bloecke)
+death-radius: 80
+
+# Todessperre:
+# mode: TEMPORARY oder PERMANENT
+# TEMPORARY sperrt den Spieler fuer temporary-ban-minutes Minuten.
+# PERMANENT sperrt den Spieler dauerhaft, bis ein Admin ihn entbannt.
+death-ban:
+  enabled: true
+  mode: TEMPORARY
+  temporary-ban-minutes: 60
+  reason: "Du bist auf diesem Scripted-Hardcore-Server gestorben."
+  kick-message: "&cDu bist gestorben und kannst vorerst nicht mehr beitreten."
+
+# Todesnachrichten werden lokal statt global gesendet.
+local-death-message: "&7{player} &cist gestorben."

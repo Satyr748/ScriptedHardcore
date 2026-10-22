@@ -1,0 +1,15 @@
+name: ScriptedHardcore
+version: '1.2.0'
+main: de.scriptedhardcore.ScriptedHardcore
+api-version: '1.21'
+description: Lokale Todesnachrichten und Hardcore-Todesregeln.
+author: ChatGPT
+commands:
+  hardcore:
+    description: Verwaltung des Scripted-Hardcore-Systems
+    usage: /hardcore <help|radius|event|deathban|unban>
+    aliases: [shc]
+permissions:
+  scriptedhardcore.admin:
+    description: Darf ScriptedHardcore verwalten
+    default: op
